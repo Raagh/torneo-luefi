@@ -1,6 +1,6 @@
 # Torneo L.U.E.F.I
 
-This project corresponds to the web application for torneo luefi, a children football league from Argentina.
+This project corresponds to the web application for Torneo LUEFI, a children football league from Argentina.
 
 ## Development server
 
@@ -18,3 +18,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Developers
+Patricio Ferraggi
+Nicolas Ovelar
