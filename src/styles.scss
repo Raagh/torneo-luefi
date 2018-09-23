@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import './src/sass/variables.scss';
+@import './src/sass/fonts.scss';
+
+html,
+body,
+main {
+  height: 100%;
+}
