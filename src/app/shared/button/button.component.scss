@@ -1,0 +1,14 @@
+@import './src/styles.scss';
+
+.button {
+  width: 195px;
+  height: 49px;
+  border-radius: 25px;
+  background-color: $red;
+  color: $white;
+  border: 0;
+}
+
+.button-image {
+  padding: 0 0.5rem 0 0;
+}

@@ -1,8 +1,14 @@
 @import './src/styles.scss';
 
-.navbar-menu {
+.navbar {
   align-items: center;
-  justify-content: center;
+  height: 15%;
+  padding: 0 10% 0 10%;
+}
+
+.navbar-logo {
+  height: 35px;
+  width: 84px;
 }
 
 .link {
@@ -14,4 +20,16 @@
 .is-transparent {
   background-color: transparent;
   background-image: none;
+}
+
+.navbar-item img {
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0;
+    height: 5%;
+  }
+
 }
