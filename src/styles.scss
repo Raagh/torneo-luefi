@@ -6,3 +6,16 @@ body,
 main {
   height: 100%;
 }
+
+span:focus {
+  outline: none;
+  border: 0;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+button:focus {
+  outline: none !important;
+}

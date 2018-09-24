@@ -9,7 +9,16 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  public BurgerToggled: boolean = false;
+
   ngOnInit() {
+  }
+
+  toggleBurger() {
+    if (this.BurgerToggled)
+      this.BurgerToggled = false;
+    else
+      this.BurgerToggled = true;
   }
 
 }
