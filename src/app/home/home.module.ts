@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
 
+import { HomeComponent } from './home.component';
+import { HomeHeroComponent } from './hero/home-hero.component';
+import { CrestCarrouselComponent } from './crest-carrousel/home-crest-carrousel.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,9 @@ import { SharedModule } from '../shared/shared.module';
     SharedModule
   ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    HomeHeroComponent,
+    CrestCarrouselComponent
   ],
   exports: [
     HomeComponent
