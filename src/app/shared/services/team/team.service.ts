@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { teamsMock } from './teams.mock';
-import { Team } from '../../models/team.model';
+import { Team } from '../../../models/team.model';
 
 @Injectable({
   providedIn: 'root'

@@ -4,7 +4,7 @@
   background-image: url('../../../assets/home/background-football-field.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 80%;
+  height: 90%;
 }
 
 .home-presentation {
@@ -15,27 +15,26 @@
   align-items: center;
 }
 
-.home-presentation-title {
+.home-presentation-base {
   font-family: Barlow;
-  font-size: 4rem;
-  font-weight: 600;
-  font-style: italic;
   font-stretch: normal;
-  line-height: 1.04;
-  letter-spacing: normal;
   text-align: center;
   color: $white;
 }
 
+.home-presentation-title {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.04;
+  letter-spacing: normal;
+}
+
 .home-presentation-halftitle {
-  font-family: Barlow;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
   font-style: normal;
-  font-stretch: normal;
   letter-spacing: 1.5px;
-  text-align: center;
-  color: $white;
 }
 
 

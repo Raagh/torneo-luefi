@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CrestCarrouselComponent } from './home-crest-carrousel.component';
+import { CrestCarouselComponent } from './home-crest-carousel.component';
 
 describe('CrestCarrouselComponent', () => {
-  let component: CrestCarrouselComponent;
-  let fixture: ComponentFixture<CrestCarrouselComponent>;
+  let component: CrestCarouselComponent;
+  let fixture: ComponentFixture<CrestCarouselComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [CrestCarrouselComponent]
+      declarations: [CrestCarouselComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CrestCarrouselComponent);
+    fixture = TestBed.createComponent(CrestCarouselComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
