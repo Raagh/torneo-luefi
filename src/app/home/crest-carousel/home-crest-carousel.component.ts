@@ -7,7 +7,7 @@ import { Team } from '../../models/team.model';
   templateUrl: './home-crest-carousel.component.html',
   styleUrls: ['./home-crest-carousel.component.scss']
 })
-export class CrestCarouselComponent implements OnInit {
+export class HomeCrestCarouselComponent implements OnInit {
 
   public teams: Array<Team>;
   public slideConfig = {
@@ -35,7 +35,7 @@ export class CrestCarouselComponent implements OnInit {
   };
 
   constructor(teamService: TeamService) {
-    this.teams = teamService.getTeams();
+    teamService.getTeams().subscribe(data => this.teams = data);
   }
 
   ngOnInit() {

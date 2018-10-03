@@ -5,7 +5,8 @@ import { SharedModule } from '../shared/shared.module';
 
 import { HomeComponent } from './home.component';
 import { HomeHeroComponent } from './hero/home-hero.component';
-import { CrestCarouselComponent } from './crest-carousel/home-crest-carousel.component';
+import { HomeCrestCarouselComponent } from './crest-carousel/home-crest-carousel.component';
+import { HomeNewsComponent } from './news/home-news.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { CrestCarouselComponent } from './crest-carousel/home-crest-carousel.com
   declarations: [
     HomeComponent,
     HomeHeroComponent,
-    CrestCarouselComponent
+    HomeCrestCarouselComponent,
+    HomeNewsComponent
   ],
   exports: [
     HomeComponent
