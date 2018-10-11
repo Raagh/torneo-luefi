@@ -1,0 +1,75 @@
+@import './src/styles.scss';
+
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.news-presentation-title {
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.81;
+  text-align: center;
+  color: $black;
+}
+
+.news-box {
+  width: 481px;
+  border-radius: 5px;
+  background-color: $grey;
+  padding: 2rem;
+}
+
+.news-title {
+  font-size: 1.8rem;
+  font-style: normal;
+  padding-bottom: 1rem;
+  color: $black;
+}
+
+.news-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: $red;
+  padding-bottom: 2rem;
+}
+
+.news-text {
+  font-family: Barlow;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.news-article {
+  font-size: 18px;
+  font-weight: normal !important;
+  line-height: 1.56 !important;
+  letter-spacing: normal !important;
+  color: $black;
+}
+
+.news-container {
+  display: flex;
+  padding: 3rem 1rem 5rem 1rem;
+  justify-content: space-evenly;
+}
+
+/* Small screens */
+@media all and (max-width: 800px) {
+  .news-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .news-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

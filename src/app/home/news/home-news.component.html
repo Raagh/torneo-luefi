@@ -1,7 +1,11 @@
-<section class="section">
-  <article>
-    <h1>{{news[0].titulo}}</h1>
-    <h3>{{news[0].subtitulo}}</h3>
-    <p>{{news[0].mensaje}}</p>
+<div class="title-container">
+  <h3 class="news-text news-presentation-title">Noticias de la semana</h3>
+</div>
+
+<section class="news-container">
+  <article *ngFor="let newsArticle of news" class="news-box">
+    <h1 class="news-text news-title">{{newsArticle.title}}</h1>
+    <h3 class="news-text news-subtitle">{{newsArticle.subtitle}}</h3>
+    <p class="news-text news-article is-lowercase">{{newsArticle.article}}</p>
   </article>
 </section>

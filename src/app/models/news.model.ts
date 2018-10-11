@@ -1,13 +1,13 @@
 export class News {
-  public Id: number;
-  public Title: string;
-  public Subtitle: string;
-  public Article: string;
+  public id: number;
+  public title: string;
+  public subtitle: string;
+  public article: string;
 
   public constructor(id: number, title: string, subtitle: string, article: string) {
-    this.Id = id;
-    this.Title = title;
-    this.Subtitle = subtitle;
-    this.Article = article;
+    this.id = id;
+    this.title = title;
+    this.subtitle = subtitle;
+    this.article = article;
   }
 }
