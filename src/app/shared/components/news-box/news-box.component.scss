@@ -1,1 +1,48 @@
+@import './src/styles.scss';
 
+.news-box {
+  flex: 0 50%;
+  min-height: 18rem;
+  border-radius: 5px;
+  background-color: $grey;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.news-title {
+  font-size: 1.8rem;
+  font-style: normal;
+  padding-bottom: 1rem;
+  color: $black;
+}
+
+.news-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: $red;
+  padding-bottom: 2rem;
+}
+
+.news-text {
+  font-family: Barlow;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.news-article {
+  font-size: 18px;
+  font-weight: normal !important;
+  line-height: 1.56 !important;
+  letter-spacing: normal !important;
+  color: $black;
+}
+
+/* Small screens */
+@media all and (max-width: 800px) {
+  .news-box {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}

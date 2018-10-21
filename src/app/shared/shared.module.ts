@@ -16,7 +16,8 @@ import { NewsBoxComponent } from './components/news-box/news-box.component';
   ],
   exports: [
     NavbarComponent,
-    ButtonComponent
+    ButtonComponent,
+    NewsBoxComponent
   ]
 })
 export class SharedModule { }
