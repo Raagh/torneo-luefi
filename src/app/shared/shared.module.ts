@@ -4,20 +4,21 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ButtonComponent } from './components/button/button.component';
 import { NewsBoxComponent } from './components/news-box/news-box.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule],
   declarations: [
     NavbarComponent,
     ButtonComponent,
-    NewsBoxComponent
+    NewsBoxComponent,
+    FooterComponent,
   ],
   exports: [
     NavbarComponent,
     ButtonComponent,
-    NewsBoxComponent
-  ]
+    NewsBoxComponent,
+    FooterComponent,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}

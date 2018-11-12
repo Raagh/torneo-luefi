@@ -3,22 +3,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  public burgerToggled: boolean = false;
 
-  public BurgerToggled: boolean = false;
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   toggleBurger() {
-    if (this.BurgerToggled)
-      this.BurgerToggled = false;
-    else
-      this.BurgerToggled = true;
+    if (this.burgerToggled) this.burgerToggled = false;
+    else this.burgerToggled = true;
   }
-
 }

@@ -2,8 +2,12 @@
   <h3 class="news-text news-presentation-title">Noticias de la semana</h3>
 </div>
 
-
 <section class="news-container">
-  <app-news-box *ngFor="let newsArticle of news" Title="{{newsArticle.title}}" Subtitle="{{newsArticle.subtitle}}"
-    Article="{{newsArticle.article}}"></app-news-box>
+  <app-news-box
+    class="app-news-box"
+    *ngFor="let newsArticle of news"
+    title="{{newsArticle.title}}"
+    subtitle="{{newsArticle.subtitle}}"
+    article="{{newsArticle.article}}"
+  ></app-news-box>
 </section>

@@ -7,21 +7,17 @@ import { HomeComponent } from './home.component';
 import { HomeHeroComponent } from './hero/home-hero.component';
 import { HomeCrestCarouselComponent } from './crest-carousel/home-crest-carousel.component';
 import { HomeNewsComponent } from './news/home-news.component';
+import { HomeSponsorsBannerComponent } from './sponsors-banner/home-sponsors-banner.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    SlickCarouselModule,
-    SharedModule
-  ],
+  imports: [CommonModule, SlickCarouselModule, SharedModule],
   declarations: [
     HomeComponent,
     HomeHeroComponent,
     HomeCrestCarouselComponent,
-    HomeNewsComponent
+    HomeNewsComponent,
+    HomeSponsorsBannerComponent,
   ],
-  exports: [
-    HomeComponent
-  ]
+  exports: [HomeComponent],
 })
-export class HomeModule { }
+export class HomeModule {}

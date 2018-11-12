@@ -5,17 +5,14 @@ import { News } from '../../models/news.model';
 @Component({
   selector: 'app-home-news',
   templateUrl: './home-news.component.html',
-  styleUrls: ['./home-news.component.scss']
+  styleUrls: ['./home-news.component.scss'],
 })
 export class HomeNewsComponent implements OnInit {
-
-  private news: News[];
+  public news: News[];
 
   constructor(newsService: NewsService) {
-    newsService.getNews().subscribe(data => this.news = data);
+    newsService.getNews().subscribe(data => (this.news = data));
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

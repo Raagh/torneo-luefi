@@ -1,22 +1,24 @@
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item">
-      <img src="/assets/navbar/navbar-logo.png" class="navbar-logo" alt="luefi logo">
+      <img src="/assets/navbar/navbar-logo.png" class="navbar-logo" alt="luefi logo" />
     </a>
-    <a role="button" class="navbar-burger" (click)="toggleBurger()" aria-label="menu" aria-expanded="false" data-target="navMenu">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
+    <a
+      role="button"
+      class="navbar-burger"
+      (click)="toggleBurger()"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navMenu"
+    >
+      <span aria-hidden="true"></span> <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div id="navMenu" class="navbar-menu" [ngClass]="{'is-active is-transparent': BurgerToggled}">
+  <div id="navMenu" class="navbar-menu" [ngClass]="{ 'is-active is-transparent': burgerToggled }">
     <div class="navbar-end">
-      <a class="link">Posiciones</a>
-      <a class="link">Fixture</a>
-      <a class="link">Galeria</a>
-      <a class="link">Campeones</a>
-      <a class="link">Nosotros</a>
-      <a class="link">Reglamento</a>
+      <a class="link">Posiciones</a> <a class="link">Fixture</a> <a class="link">Galeria</a>
+      <a class="link">Campeones</a> <a class="link">Nosotros</a> <a class="link">Reglamento</a>
       <a class="link">Contacto</a>
     </div>
   </div>
