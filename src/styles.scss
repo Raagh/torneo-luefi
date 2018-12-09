@@ -19,3 +19,9 @@ input:focus {
 button:focus {
   outline: none !important;
 }
+
+.center-both-ways {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
