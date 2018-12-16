@@ -1,0 +1,22 @@
+@import './src/styles.scss';
+.footer-container {
+  padding: 2rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.luefi-logo {
+  width: 65px;
+  height: 46px;
+}
+
+.luefi-text {
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.16;
+  letter-spacing: 0.3px;
+  color: $black;
+}
