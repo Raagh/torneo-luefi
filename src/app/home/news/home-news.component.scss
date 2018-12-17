@@ -7,11 +7,20 @@
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  flex-direction: column;
+}
+
+.rounded-line{
+  width: 118px;
+  height: 5px;
+  background: #ed583f;
+  border-radius: 10px;
 }
 
 .news-presentation-title {
   font-family: Barlow;
-  font-size: 2rem;
+  font-size: 24px;
+  font-weight: 600;
   font-style: italic;
   line-height: 1.81;
   text-align: center;

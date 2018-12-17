@@ -42,6 +42,11 @@
 @media only screen and (max-width: 768px) {
   .home-intro {
     height: 100%;
+    background-image: url('../../../assets/home/background-football-field-mobile.png');
+  }
+
+  .home-presentation{
+    padding-top: 3rem;
   }
 
   .home-presentation-title {

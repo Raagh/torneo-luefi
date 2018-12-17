@@ -1,22 +1,50 @@
 @import './src/styles.scss';
 .footer-container {
   padding: 2rem 4rem 2rem 4rem;
+}
+
+.footer-logo-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.luefi-logo {
-  width: 65px;
-  height: 46px;
+.footer-luefi-logo {
+  width: 86px;
+  height: 38px;
 }
 
-.luefi-text {
-  font-size: 16px;
-  font-weight: 800;
+.footer-social-container img {
+  padding: 0 1rem 0 1rem;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contact-row {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact-text {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 2.16;
-  letter-spacing: 0.3px;
-  color: $black;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #949494;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
 }
